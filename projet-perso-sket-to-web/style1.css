@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans&family=Rambla&display=swap');
+
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 20;
+    height: 200vh;
+    /* background-color: #dE6989; */
+    font-family: alkatra, cursive, sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
+        /* font-family: 'Rambla', sans-serif; */
+    /* font-family: alkatra,'Cabin Sketch', cursive; */
+
+}
+
+/*! ----------------- whiteboard ------------- */
+.whiteboard {
+    width: 100%;
+    min-height: 500px;
+    /* background: #835353; */
+    padding: 10px;
+
+
+}
+/*? box-parent */
+.box-parent {
+    width: 90%;
+
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: skew(3deg);
+    width: 40%;
+    /* min-height: 300px; */
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    background: #dE6989;
+    border: 4px solid #000;
+    box-shadow: 1px 5px 15px 5px rgba(0,0,0,1);
+    font-size: 2.0em;
+    font-weight: bolder;
+    line-height: 1.1em;
+
+}
+.box-parag {
+    height: 80%;
+    border: 1px solid white;
+}
+/*? box-title */
+.box-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 17px 17px 17px 17px;
+    min-width: 50%;
+    height: 100px;
+    padding: 0 0 0 90px;
+    background: #000;
+    border: 1px solid yellow;
+    position: absolute;
+    /* left: -28px;
+    top: -3px; */
+}
+
+/* .box-title h4 {
+ 
+} */
+
+.box-title, .box-title-step {
+    color: #fff;
+    font-size: 1.8em;
+    font-family: "audiowide", sans-serif;
+    letter-spacing: 2px;
+}
+
+.box-title-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    position: absolute;
+    left: -28px;
+    top: -3px;
+    background: #f8be15;
+    border: 8px solid #000;
+}
+
+
+

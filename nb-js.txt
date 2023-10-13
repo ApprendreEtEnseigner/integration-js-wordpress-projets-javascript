@@ -1,0 +1,20 @@
+La méthode `addEventListener()` peut écouter une grande variété d'événements. Voici quelques exemples de types d'événements couramment utilisés :
+
+1. **click** : Se déclenche lorsque l'utilisateur clique sur un élément⁵.
+2. **mouseover** : Se déclenche lorsque l'utilisateur passe le curseur de sa souris sur un élément⁵.
+3. **mouseout** : Se déclenche lorsque l'utilisateur sort son curseur d'un élément⁵.
+4. **keydown** : Se déclenche lorsque l'utilisateur appuie sur une touche du clavier.
+5. **keyup** : Se déclenche lorsque l'utilisateur relâche une touche du clavier.
+6. **load** : Se déclenche lorsque la page a fini de charger.
+7. **submit** : Se déclenche lorsque l'utilisateur soumet un formulaire.
+
+Il existe de nombreux autres types d'événements que vous pouvez écouter avec `addEventListener()`. Pour une liste complète, vous pouvez consulter la [documentation officielle](^1^) de Mozilla Developer Network (MDN).
+
+Source: Conversation with Bing, 13/10/2023
+(1) La gestion d'évènements en JavaScript et la méthode addEventListener .... https://www.pierre-giraud.com/javascript-apprendre-coder-cours/addeventlistener-gestion-evenement/.
+(2) EventTarget.addEventListener() - Référence Web API | MDN. https://developer.mozilla.org/fr/docs/Web/API/EventTarget/addEventListener.
+(3) EventTarget: addEventListener() method - Web APIs | MDN. https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener.
+(4) JS: Les evenements (addEventListenner) – Droit au Code. https://bing.com/search?q=types+d%27%c3%a9v%c3%a9nements+pour+la+m%c3%a9thode+addEventListener.
+(5) HTML DOM Element addEventListener() Method - W3Schools. https://www.w3schools.com/jsref/met_element_addeventlistener.asp.
+(6) AddEventListener() | smnarnold. https://smnarnold.com/cours/javascript/addeventlistener.
+(7) undefined. https://bing.com/search?q=.
